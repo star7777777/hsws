@@ -22,7 +22,7 @@ data = data.frame(Height=height,       # Each column gets a name
                   Weight=weight, 
                   Age=age, 
                   Hand=handed,
-                  row.names=rownames)  # provide names for the rows
+                  Students=rownames)  # provide names for the rows
 
 # ----------- describe the data frame: --------------
 
