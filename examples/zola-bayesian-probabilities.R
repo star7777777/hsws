@@ -9,7 +9,7 @@ e=empty.graph(var)
 modelstring(e)="[Sci][Work][Math|Sci][Eff|Sci:Work][Stat|Math:Eff]"
 
 plot(e)
-
+#hello
 # here we provide our conditional probability tables
 cptSci=matrix(c(0.75, 0.25), ncol=2, dimnames=list(NULL, c("Like", "Dislike")))
 cptSci

@@ -130,6 +130,7 @@ s[1:10,"Gender"]
 
 # h. Print out the rows describing all left-handed females in the dataset. How would you get 
 # rid of NAs? Try using which().
+#>print(s[which(s$Handedness=="Left"&s$Gender=="Female"),])
 
 # i. How many males under age 18 in the dataset? List their heights, with units. Did any
 # not report a height? How many?

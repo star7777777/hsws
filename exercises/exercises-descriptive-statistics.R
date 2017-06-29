@@ -156,7 +156,7 @@ s = data.frame(Gender=survey$Sex,
 # which(), range(), and summary() will be useful for the following questions:			         
 			          
 # a. What is the age range for females? For males? Tip: use the which() function.
-
+#range(s[which(s$Gender=="Female"),]$Age)
 # b. How many subjects reported their height in Metric units, how many in Imperial units, 
 # and how many did not specify units?
 # (This is a good application for the summary() function.)
